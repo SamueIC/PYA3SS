@@ -1,0 +1,5 @@
+ID,Gender,Age,Sales,BMI,Salary,Birthday
+A23,Male,22,245,normal,20,24-06-1995
+A24,Female,30,666,Underweight,30,05-05-1988
+A25,M,35,456,Obesity,55,01-08-1983
+A26,M,24,999,Normal,99,24-05-1993

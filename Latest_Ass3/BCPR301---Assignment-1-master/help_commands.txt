@@ -1,0 +1,69 @@
+cd
+	Syntax:
+        cd [path]
+        relative traversal through file structure, same as windows
+
+    :param arg:
+        path: [string]
+
+    :return:
+        New working directory
+
+graph
+	Syntax:
+		graph [graphtype] [filename]
+		Displays a graph of the loaded data
+
+	:param arg:
+		graphtype: [bar | scatter | pie]
+		filename: [string]
+
+	:return:
+		The graph
+
+help
+	List available commands with "help" or detailed help with "help cmd".
+
+load
+	Will load a file
+
+	Syntax:
+		load [filename] | -database
+
+	:param arg:
+		filename: [string]
+		-database
+
+	:return:
+		File has been set
+
+pwd
+	Syntax:
+		pwd
+		Print the current working directory
+
+	:param arg:
+		none
+
+	:return:
+		The current working directory
+
+quit
+	Syntax:
+		quit
+		Quit from my CMD
+
+	:param arg:
+		none
+
+	:return:
+		True
+		
+save
+	Syntax:
+		save [database type]
+
+	:param arg:
+		database type: [local | remote]
+
+	:return:

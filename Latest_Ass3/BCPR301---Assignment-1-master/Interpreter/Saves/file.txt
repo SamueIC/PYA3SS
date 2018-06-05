@@ -1,0 +1,13 @@
+ID=A011;Gender=F;Age=21;Sales=001;BMI=Normal;Salary=12;Birthday=01-01-1996
+ID=A021;Gender=F;Age=22;Sales=002;BMI=Normal;Salary=12;Birthday=01-01-1995
+ID=A031;Gender=F;Age=23;Sales=004;BMI=Normal;Salary=22;Birthday=01-01-1994
+ID=A041;Gender=M;Age=24;Sales=006;BMI=Normal;Salary=26;Birthday=01-01-1993
+ID=A051;Gender=F;Age=25;Sales=011;BMI=Normal;Salary=56;Birthday=01-01-1992
+ID=A061;Gender=F;Age=26;Sales=055;BMI=Normal;Salary=56;Birthday=01-01-1991
+ID=A071;Gender=M;Age=27;Sales=066;BMI=Normal;Salary=56;Birthday=01-01-1990
+ID=A081;Gender=F;Age=28;Sales=077;BMI=Normal;Salary=65;Birthday=01-01-1989
+ID=A091;Gender=M;Age=29;Sales=555;BMI=Normal;Salary=12;Birthday=01-01-1988
+ID=A101;Gender=M;Age=33;Sales=677;BMI=Normal;Salary=20;Birthday=01-01-1984
+ID=A201;Gender=M;Age=55;Sales=665;BMI=Normal;Salary=12;Birthday=01-01-1962
+ID=A301;Gender=F;Age=66;Sales=232;BMI=Normal;Salary=65;Birthday=01-01-1951
+ID=A401;Gender=F;Age=77;Sales=823;BMI=Normal;Salary=12;Birthday=01-01-1940

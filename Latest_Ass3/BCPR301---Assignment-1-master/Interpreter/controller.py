@@ -67,20 +67,13 @@ class Controller:
 
     def set_graph(self, graph_type, filename):
         types = {
-            'pie': ConcretePie(), #PieGraph
+            'pie': ConcretePie(),
             'scatter': ConcreteScatter(),
             'bar': ConcreteBar()
         }
         self.graph = types[graph_type]
-        self.graph.filename = filename
-        print(graph_type)
-        # check this works still
-        print(self.graph.filename)
-        print(self.data)
-        # may need to assign value using temporary value rather than reference
-        print(self.graph)
+        self.graph.set_file_name(filename)
         self.graph.set_graph_type(self.data)
-        # self.graph.graph_data = self.data
 
     def get_local(self):
         self.data = self.db_handler.get_local()

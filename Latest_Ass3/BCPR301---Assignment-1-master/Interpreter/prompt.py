@@ -136,7 +136,6 @@ class Shell(Cmd):
             The graph
         """
         commands = arg.split(" ")
-        # James exception handling
         if self.controller.check_data():
             try:
                 if commands[0] == "pie" or commands[0] == "scatter" or commands[0] == "bar":
@@ -145,10 +144,8 @@ class Shell(Cmd):
                     criteria = input("What are the criteria? ([key] [value - optional]) > ")
                     crit = criteria.split(" ")
                     if len(crit) > 1:
-                        # Feature Envy refactoring controller.graph.set_criteria
                         self.controller.set_criteria(crit[0], crit[1])
                     else:
-                        # Feature Envy refactoring
                         self.controller.set_criteria(crit[0])
                     keys = input("What keys to use? ([key1] [key2]) > ")
                     a_key = keys.split(" ")
